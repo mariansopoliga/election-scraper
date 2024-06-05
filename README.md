@@ -5,8 +5,7 @@ A project for the Engeto Online Python Academy.
 This project is used to extract and process the results of the 2017 parliamentary elections in Czech republic, 
 parsing the data into a structured format and saving it as a CSV file.
 
-Link to view: https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
-
+Link to view: https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ <br>
 
 **Getting Started**
 
