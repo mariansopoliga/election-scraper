@@ -63,10 +63,10 @@ Ending election_scraper
 
 ### Partial Output
 
-Number of municipality | Name of municipality | Voters on the list | Ballots issued | Valid votes
+-Number of municipality | Name of municipality | Voters on the list | Ballots issued | Valid votes
 
-500054 | Praha 1 | 21 556 | 14 167 | 14 036
-500224 | Praha 10 | 79 964 | 52 277 | 51 895
+-500054 | Praha 1 | 21 556 | 14 167 | 14 036
+-500224 | Praha 10 | 79 964 | 52 277 | 51 895
 
 ### Monitor and Maintain
 
