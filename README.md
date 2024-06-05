@@ -24,11 +24,9 @@ Virtual environment tool (optional but recommended)
 1.A step-by-step series of examples that tell you how to get a development environment running:
 
 git clone https://github.com/mariansopoliga/election-scraper.git
-cd election-scraper<br><br>
-
+cd election-scraper<br>
 2.Create and activate a virtual environment (optional but recommended):
-
-python -m venv venv
+python -m venv venv<br><br>
 
 ### On Windows
 venv\Scripts\activate
@@ -37,7 +35,7 @@ source venv/bin/activate
 
 3.Install the required packages:
 
-pip install -r requirements.txt
+pip install -r requirements.txt<br><br>
 
 **Deployment**
 
@@ -55,30 +53,30 @@ python election_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xk
 1. argument:https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100
 2. argument:prague.csv
 
-This command fetches the election data from the given URL and saves it to prague.csv.
+This command fetches the election data from the given URL and saves it to prague.csv.<br><br>
 
 **Download progress:**
 
 Downloading data from the selected district... Prague 1
 Data has been written to 'Path\Election Scraper\prague.csv'
-Ending election_scraper
+Ending election_scraper<br><br>
 
 **Partial output**
 
 Number of municipality | Name of municipality | Voters on the list | Ballots issued | Valid valid_votes 
 500054 | Praha 1 | 21 556 | 14 167 | 14 036 
-500224 | Praha 10 | 79 964 | 52 277 | 51 895 
+500224 | Praha 10 | 79 964 | 52 277 | 51 895 <br><br>
 
 **Monitor and maintain:**
 
 Ensure the system where the script runs has network access to fetch the data.
-Regularly check output files to ensure the script runs successfully.
+Regularly check output files to ensure the script runs successfully.<br><br>
 
 **Built With**
 
 BeautifulSoup - Used for parsing HTML
 Pandas - Used for data manipulation and analysis
-Requests - Used for making HTTP requests
+Requests - Used for making HTTP requests<br><br>
 
 **Authors: Marian Sopoliga**
 
