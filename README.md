@@ -41,7 +41,9 @@ Follow the steps in the Installing section to set up the environment and install
 Run the script to generate the CSV file:
 
 Use the command:
+
 python projekt_3.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3107" tabor.csv
+
 This command fetches the election data from the given URL and saves it to tabor.csv.
 
 Monitor and maintain:
@@ -54,6 +56,8 @@ Built With
 BeautifulSoup - Used for parsing HTML
 Pandas - Used for data manipulation and analysis
 Requests - Used for making HTTP requests
+
+Authors: Marian Sopoliga
 
 
 
