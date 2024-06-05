@@ -43,19 +43,13 @@ A step-by-step series of examples that tell you how to get a development environ
     ```
 
 4. **Run the script with the necessary arguments**:
-    ```sh
-    python projekt_3.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3107" tabor.csv
-    ```
-
-Repeat the above steps until your environment is set up.
-
-### Example
-
+  
 **Voting results for the district Prague**:
 
 Use the command:
 ```sh
 python election_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100" prague.csv
+```
 - **1st argument**: `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100`
 - **2nd argument**: `prague.csv`
 
