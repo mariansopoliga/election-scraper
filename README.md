@@ -27,10 +27,11 @@ Virtual environment tool (optional but recommended)<br><br>
 git clone https://github.com/mariansopoliga/election-scraper.git
 cd election-scraper<br>
 2.Create and activate a virtual environment (optional but recommended):
-python -m venv venv<br><br>
+python -m venv venv<br>
 
 ### On Windows
 venv\Scripts\activate
+
 ### On macOS/Linux
 source venv/bin/activate
 
