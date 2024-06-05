@@ -1,5 +1,9 @@
 # election-scraper
-A project for the Engeto Online Python Academy to scrape and process election data from a specified URL, parsing the data into a structured format and saving it as a CSV file.
+
+A project for the Engeto Online Python Academy.
+This project is used to extract and process the results of the 2017 parliamentary elections in Czech republic, 
+parsing the data into a structured format and saving it as a CSV file.
+Link to view: https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
 
 Getting Started
 
@@ -40,11 +44,28 @@ Ensure all dependencies are installed and the environment is correctly set up:
 Follow the steps in the Installing section to set up the environment and install dependencies.
 Run the script to generate the CSV file:
 
+Voting results for the district Prague
+
 Use the command:
+python election_scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100" prague.csv
 
-python projekt_3.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3107" tabor.csv
+1. argument:https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=1&xnumnuts=1100
+2. argument:prague.csv
 
-This command fetches the election data from the given URL and saves it to tabor.csv.
+This command fetches the election data from the given URL and saves it to prague.csv.
+
+Download progress:
+
+Downloading data from the selected district... Prague 1
+Data has been written to 'Path\Election Scraper\prague.csv'
+Ending election_scraper
+
+Partial output
+
+Number of municipality | Name of municipality | Voters on the list | Ballots issued | Valid valid_votes 
+500054 | Praha 1 | 21 556 | 14 167 | 14 036 
+500224 | Praha 10 | 79 964 | 52 277 | 51 895 
+
 
 Monitor and maintain:
 
