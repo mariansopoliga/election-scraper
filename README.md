@@ -20,24 +20,36 @@ Python 3.x<br>
 Pip (Python package installer)<br>
 Virtual environment tool (optional but recommended)<br><br>
 
-**Installing**
+### Installing
 
-1.A step-by-step series of examples that tell you how to get a development environment running:
+A step-by-step series of examples that tell you how to get a development environment running:
 
-git clone https://github.com/mariansopoliga/election-scraper.git
-cd election-scraper<br>
-2.Create and activate a virtual environment (optional but recommended):
-python -m venv venv<br>
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/election-scraper.git
+    cd election-scraper
+    ```
 
-### On Windows
-venv\Scripts\activate
+2. **Create and activate a virtual environment** (optional but recommended):
+    ```sh
+    python -m venv venv  
+    # On Windows  
+    venv\Scripts\activate  
+    # On macOS/Linux  
+    source venv/bin/activate  
+    ```
 
-### On macOS/Linux
-source venv/bin/activate
+3. **Install the required packages**:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-3.Install the required packages:
+4. **Run the script with the necessary arguments**:
+    ```sh
+    python projekt_3.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=3&xnumnuts=3107" tabor.csv
+    ```
 
-pip install -r requirements.txt<br><br>
+Repeat the above steps until your environment is set up.
 
 **Deployment**
 
