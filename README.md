@@ -24,11 +24,12 @@ Virtual environment tool (optional but recommended)
 1.A step-by-step series of examples that tell you how to get a development environment running:
 
 git clone https://github.com/mariansopoliga/election-scraper.git
-cd election-scraper
+cd election-scraper<br>
 
 2.Create and activate a virtual environment (optional but recommended):
 
 python -m venv venv
+
 ### On Windows
 venv\Scripts\activate
 ### On macOS/Linux
